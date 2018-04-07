@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 400px;
 }
 
-nav.pushpin.pinned{
+nav.pushpin{
     background-color:#202020;
     z-index:5;
     height:40px;
