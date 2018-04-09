@@ -11,17 +11,17 @@
     $('.sidenav').sidenav();
     $('.carousel').carousel();
     $('.modal').modal();
-    $("#contact-form").validate({
-      rules: {
-        name: {
-            required: true
-        },
-        email: {
-            required: true,
-            email:true
-        }
-      }
-   });
+  //   $("#contact-form").validate({
+  //     rules: {
+  //       name: {
+  //           required: true
+  //       },
+  //       email: {
+  //           required: true,
+  //           email:true
+  //       }
+  //     }
+  //  });
   });
 
   

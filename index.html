@@ -6,13 +6,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- MATERIALIZE Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <!-- CSS -->
+  	<!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 <body>
 	<!-- NAVBAR -->
 	<nav class="pushpin">
 		<div class="nav-wrapper">
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
 				<li><a href="#top">About</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
@@ -23,33 +24,32 @@
 		</div>
 	</nav>
 	<!-- MOBILE COLLAPSE BUTTON -->
-  <ul class="sidenav" id="mobile-demo">
-			<li><a href="#top">About</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#bottom">Connect</a></li>
-			<!-- <li><a class="modal-trigger" href="#modal1">Contact</a></li> -->
+	<ul class="sidenav" id="mobile-demo">
+		<li><a class="sidenav-close" href="#top">About</a></li>
+		<li><a class="sidenav-close" href="#portfolio">Portfolio</a></li>
+		<li><a class="sidenav-close" href="#bottom">Connect</a></li>
+		<!-- <li><a class="modal-trigger" href="#modal1">Contact</a></li> -->
 	</ul>
-		<!-- HEADER -->
-	<header id="top" class="site-header" style="margin-top:40px; background-image: url(assets/sf-skyline.jpg)">
-	  <div class="row">
-	    <div class="col s10 offset-s1 m6 offset-m3 l4 offset-l4" >
-	      <div class="card" id="profile-card">
-	        <div class="card-image">
-	          <img style="border-radius: 50%; width:200px; margin: auto; padding-top: 10px" src="assets/profilepic.jpg">
-	        </div>
+	<!-- HEADER -->
+	<header id="top" class="site-header" style="background-image: url(assets/sf-skyline.jpg)">
+		<div class="row">
+			<div class="col s10 offset-s1 m6 offset-m3 l4 offset-l4" >
+				<div class="card" id="profile-card">
+					<div class="card-image">
+						<img style="border-radius: 50%; width:200px; margin: auto; padding-top: 10px" src="assets/profilepic.jpg">
+					</div>
 					<div class="card-content center-align" style="color: black;">
-	          <h4>Czarina J. Kong</h4>
-	          <h5>Front-End Developer</h5>
-	          <p>Aspiring Full-Stack Web Developer</p>
-	        </div>
-	        <div class="card-action center-align">
-	          <a href="mailto:CzarinaKong@gmail.com?Subject=Hello!" target="_top">CzarinaKong@gmail.com</a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
+						<h4>Czarina J. Kong</h4>
+						<h5>Front-End Developer</h5>
+						<p>Aspiring Full-Stack Web Developer</p>
+					</div>
+					<div class="card-action center-align">
+						<a href="mailto:CzarinaKong@gmail.com?Subject=Hello!" target="_top">CzarinaKong@gmail.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
-
 	<!-- ABOUT ME -->
 	<div class="section white container" style="margin-top:100px">
 		<div class="row container" style="margin-top:50px">
@@ -77,7 +77,7 @@
 	<!-- SKILLS -->
 	<div id="skills" class="section white container" style="margin-top:50px">
 		<h3 class="center-align" style="padding-top:50px">Skills</h3>
-		<div class="row container" >
+		<div class="row" >
 			<h4 class="center-align"style="margin-top:60px">Front-End</h5>
 		</div>
 		<div class="row center-align">
@@ -102,7 +102,7 @@
 				<h5>Version Control/Git</h5>
 			</div>
 		</div>
-		<div class="row container" >
+		<div class="row" >
 			<h4 class="center-align"style="margin-top:60px">Back-End</h5>
 		</div>
 		<div class="row center-align">
@@ -130,7 +130,7 @@
 	</div>
 	<!-- FOOTER -->
 	<footer id="bottom" class="page-footer">
-		<div class="container">
+		<div>
 			<div class="row center-align">
 					<h5 class="white-text">Want to work together?</h5>
 					<p class="grey-text text-lighten-4">I'm currently accepting new projects and would love to hear about yours.<br>Please take a few minutes to tell me about it.</p>

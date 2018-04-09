@@ -10,10 +10,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header {
+    margin-top: 40px;
     position: relative;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: #fff;
     background: #090a0b no-repeat 50%;
     background-size: cover;
     height: 400px;
